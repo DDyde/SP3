@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/index.php" method="post">
+        <select type="text" name="pos">
+            <option value="Агент по регистрации">Агент по регистрации</option>
+            <option value="Главный механик">Главный механик</option>
+            <option value="Начальник отдела">Начальник отдела</option>
+            <option value="Главный пилот">Главный пилот</option>
+            <option value="Второй пилот">Второй пилот</option>
+        </select>
+        <select name="work_exp">
+            <option value="15">15</option>
+            <option value="3">3</option>
+            <option value="6">6</option>
+            <option value="4">4</option>
+        </select>
+        <select name="salary">
+            <option value="30000">30000</option>
+            <option value="35000">35000</option>
+            <option value="70000">70000</option>
+            <option value="45000">45000</option>
+        </select>
+        <select name="gender">
+            <option value="male">Мужской</option>
+            <option value="female">Женский</option>
+        </select>
+        <select name="age">
+            <option value="38">38</option>
+            <option value="46">46</option>
+            <option value="34">34</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+        </select>
+        <select name="dep">
+            <option value="Регистрация">Регистрация</option>
+            <option value="Ремонт">Ремонт</option>
+            <option value="Охрана">Охрана</option>
+            <option value="Авиаперелет">Авиаперелет</option>
+        </select>
+        <select name="hChild">
+            <option value="yes">да</option>
+            <option value="no">нет</option>
+        </select>
+        <select name="aChild">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="0">0</option>
+        </select>
+        <input type="hidden" name="sended">
+        <button type="submit" name="form" value="1">Получить пользователей</button>
+    </form>
+</body>
+</html>
