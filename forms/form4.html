@@ -8,12 +8,14 @@
 </head>
 <body>
     <form action="/index.php" method="post">
-        <label for="bNum">Время поступления</label>
+        <label for="arrTime">Время прибытия: </label>
         <input type="time" name="arrTime" id="">
+        <label for="amFlight">Кол-во рейсов: </label>
         <select name="amFlight">
             <option value="1">1</option>
             <option value="2">2</option>
         </select>
+        <label for="amFlight">Время на стоянке: </label>
         <input type="time" name="parkTime" id="">
         <input type="hidden" name="sended">
         <button type="submit" name="form" value="4">Получить пользователей</button>

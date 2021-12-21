@@ -8,14 +8,17 @@
 </head>
 <body>
     <form action="/index.php" method="post">
+        <label for="airDep">Аэропорт вылета: </label>
         <select name="airDep" id="">
             <option value="1">1</option>
             <option value="2">2</option>
         </select>
+        <label for="airArr">Аэропорт прилета: </label>
         <select name="airArr" id="">
             <option value="1">1</option>
             <option value="2">2</option>
         </select>
+        <label for="fPlaces">Кол-во свободных мест: </label>
         <input type="number" name="fPlaces" id="">
         <input type="hidden" name="sended">
         <button type="submit" name="form" value="7">Получить пользователей</button>

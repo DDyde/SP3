@@ -8,12 +8,16 @@
 </head>
 <body>
     <form action="/index.php" method="post">
+        <label for="bNum">Номер бригады: </label>
         <select name="bNum">
             <option value="22">22</option>
             <option value="21">21</option>
             <option value="23">23</option>
         </select>
+        <br>
+        <label for="aSalary">Средняя зарплата: </label>
         <input type="text" name="aSalary">
+        <br>
         <input type="hidden" name="sended">
         <button type="submit" name="form" value="2">Получить пользователей</button>
     </form>

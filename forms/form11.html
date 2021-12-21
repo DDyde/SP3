@@ -8,19 +8,24 @@
 </head>
 <body>
     <form action="/index.php" method="post">
+        <label for="fNum">Номер рейса: </label>
         <select name="fNum" id="">
             <option value="1">1</option>
             <option value="2">2</option>
         </select>
+        <label for="bagStatus">Статус багажа: </label>
         <select name="bagStatus" id="">
             <option value="Сдан">Сдан</option>
             <option value="Не сдан">Не сдан</option>
         </select>
+        <label for="gender">Пол: </label>
         <select name="gender" id="">
             <option value="male">male</option>
             <option value="female">female</option>
         </select>
+        <label for="depDays">Дата вылета: </label>
         <input type="date" name="depDays" id="">
+        <label for="age">Возрост: </label>
         <input type="number" name="age" id="">
         <input type="hidden" name="sended">
         <button type="submit" name="form" value="11">Получить пользователей</button>

@@ -8,16 +8,20 @@
 </head>
 <body>
     <form action="/index.php" method="post">
+        <label for="reasDet">Причина задержки: </label>
         <select name="reasDet" id="">
             <option value="Нет">Нет</option>
             <option value="Плохие погодные условия">Погодные условия</option>
             <option value="Техническая неисправость">Техническая неисправость</option>
         </select>
+        <label for="routeNum">Номер маршрута: </label>
         <select name="routeNum" id="">
             <option value="1">1</option>
             <option value="2">2</option>
         </select>
+        <label for="surrTick">Кол-во сданных билетов: </label>
         <input type="number" name="surrTick" id="">
+        <label for="delTime">Время задержки: </label>
         <input type="time" name="delTime" id="">
         <input type="hidden" name="sended">
         <button type="submit" name="form" value="8">Получить пользователей</button>

@@ -8,23 +8,29 @@
 </head>
 <body>
     <form action="/index.php" method="post">
+        <label for="fNum">Номре рейса: </label>
         <select name="fNum" id="">
             <option value="1">1</option>
             <option value="2">2</option>
         </select>
+        <label for="depDays">Дата вылета: </label>
         <input type="date" name="depDays" id="">
+        <label for="airDep">Аэропорт вылета: </label>
         <select name="airDep" id="">
             <option value="1">1</option>
             <option value="2">2</option>
         </select>
+        <label for="airArr">Аэропорт прилета: </label>
         <select name="airArr" id="">
             <option value="1">1</option>
             <option value="2">2</option>
         </select>
+        <label for="price">Цена: </label>
         <select name="price" id="">
             <option value="17760">17760</option>
             <option value="6750">6750</option>
         </select>
+        <label for="depTime">Время вылета: </label>
         <input type="time" name="depTime" id="">
         <input type="hidden" name="sended">
         <button type="submit" name="form" value="12">Получить пользователей</button>

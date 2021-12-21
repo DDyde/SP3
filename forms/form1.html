@@ -8,6 +8,7 @@
 </head>
 <body>
     <form action="/index.php" method="post">
+        <label for="pos">Должность: </label>
         <select type="text" name="pos">
             <option value="Агент по регистрации">Агент по регистрации</option>
             <option value="Главный механик">Главный механик</option>
@@ -15,22 +16,30 @@
             <option value="Главный пилот">Главный пилот</option>
             <option value="Второй пилот">Второй пилот</option>
         </select>
+        <br>
+        <label for="work_exp">Опыт работы: </label>
         <select name="work_exp">
             <option value="15">15</option>
             <option value="3">3</option>
             <option value="6">6</option>
             <option value="4">4</option>
         </select>
+        <br>
+        <label for="salary">Зарплата: </label>
         <select name="salary">
             <option value="30000">30000</option>
             <option value="35000">35000</option>
             <option value="70000">70000</option>
             <option value="45000">45000</option>
         </select>
+        <br>
+        <label for="gender">Пол: </label>
         <select name="gender">
             <option value="male">Мужской</option>
             <option value="female">Женский</option>
         </select>
+        <br>
+        <label for="age">Возрост: </label>
         <select name="age">
             <option value="38">38</option>
             <option value="46">46</option>
@@ -38,21 +47,28 @@
             <option value="26">26</option>
             <option value="27">27</option>
         </select>
+        <br>
+        <label for="dep">Департамент: </label>
         <select name="dep">
             <option value="Регистрация">Регистрация</option>
             <option value="Ремонт">Ремонт</option>
             <option value="Охрана">Охрана</option>
             <option value="Авиаперелет">Авиаперелет</option>
         </select>
+        <br>
+        <label for="hChild">Наличие детей: </label>
         <select name="hChild">
             <option value="yes">да</option>
             <option value="no">нет</option>
         </select>
+        <br>
+        <label for="aChild">Кол-во детей: </label>
         <select name="aChild">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="0">0</option>
         </select>
+        <br>
         <input type="hidden" name="sended">
         <button type="submit" name="form" value="1">Получить пользователей</button>
     </form>

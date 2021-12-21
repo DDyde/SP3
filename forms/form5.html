@@ -8,10 +8,15 @@
 </head>
 <body>
     <form action="/index.php" method="post">
+        <label for="dateInsp">Дата проверки: </label>
         <input type="date" name="dateInsp" id="">
+        <label for="timeRep">Время ремонта: </label>
         <input type="time" name="timeRep" id="">
+        <label for="amRep">Кол-во ремонта: </label>
         <input type="number" name="amRep" id="">
+        <label for="ageAir">Возрост самолета: </label>
         <input type="number" name="ageAir" id="">
+        <label for="amFlight">Кол-во рейсов: </label>
         <input type="number" name="amFlight" id="">
         <input type="hidden" name="sended">
         <button type="submit" name="form" value="5">Получить пользователей</button>

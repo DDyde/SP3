@@ -8,15 +8,21 @@
 </head>
 <body>
     <form action="/index.php" method="post">
+        <label for="type">Тип самолета: </label>
         <select name="type" id="">
             <option value="Региональный">Региональный</option>
             <option value="Широкофюзеляжный">Широкофюзеляжный</option>
             <option value="Узкофюзеляжный">Узкофюзеляжный</option>
         </select>
+        <label for="soldTick">Продано билетов: </label>
         <input type="number" name="soldTick" id="">
+        <label for="routeNum">Номер маршрута: </label>
         <input type="number" name="routeNum" id="">
+        <label for="price">Цена: </label>
         <input type="number" name="price" id="">
+        <label for="travTime">Время полета: </label>
         <input type="time" name="travTime" id="">
+        <label for="depTime">Время вылета: </label>
         <input type="time" name="depTime" id="">
         <input type="hidden" name="sended">
         <button type="submit" name="form" value="9">Получить пользователей</button>
